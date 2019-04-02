@@ -1,0 +1,16 @@
+1. Install visual studio code 
+2. Create a workspace in any driver and import the folder
+3. Start the server webdriver-manager start localhost:4444
+http://localhost:4444/wd/hub/static/resource/hub.html
+
+4. Go to this folder and run command- npm init and hit enter
+
+5. Provide necessary info- package name, description, version,git repo, ISC etc and hit enter
+6. Now you can see a package.json is displayed in the folder. (Like pom.xml)
+7. Add dependencies and libraries for protractor and jasmine and open terminal and type npm install
+8. Create 2 files->  conf.js and spec.js
+9.  config file-> chrome browser config,selenium server is available.
+10. specs file-> we will be writing codes, locaters and logic browser.get, element.click
+11. Protractor default browser is googlechrome
+12. In capabilities we can provide browsername
+13. Add snippets to get autosuggest- ctrl+shift+p-> Go to extension install

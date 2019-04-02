@@ -1,0 +1,10 @@
+Installation of Jasmine Reporter
+There are two way you can do this, locally or globally
+
+Open command prompt execute the following command to install locally
+npm install --save-dev jasmine-reporters@^2.0.0			
+Above command will install jasmine reports node-modules locally means from the directory where we are running the command in command prompt.
+
+Open command prompt execute the following command for global installation
+npm install –g jasmine-reporters@^2.0.0
+In this tutorial, we will install the jasmine reporters locally.
